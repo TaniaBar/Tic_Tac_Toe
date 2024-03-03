@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    text-align: center;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(217, 226, 217);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    border-bottom: 3px solid beige;
+}
+
+.vertical-line {
+    border-right: 3px solid beige;
+}
+
+.winner {
+    background-color: lightgray;
+    color: red;
+}
